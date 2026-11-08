@@ -1,0 +1,396 @@
+{
+  "sha256": "4415933ce33476f14c837abb61a1b60af8b78cd81783896501913a7aac69e423",
+  "image_base": "0x140000000",
+  "sections": [
+    {
+      "name": ".idata",
+      "rva": 4096,
+      "raw": 1024,
+      "raw_size": 174424064,
+      "size": 174424064,
+      "flags": 1610612768
+    },
+    {
+      "name": ".rsrc",
+      "rva": 174428160,
+      "raw": 174425088,
+      "raw_size": 54468608,
+      "size": 54468608,
+      "flags": 1073741888
+    },
+    {
+      "name": ".sbss",
+      "rva": 228896768,
+      "raw": 228893696,
+      "raw_size": 2873344,
+      "size": 8028160,
+      "flags": 3221225536
+    },
+    {
+      "name": ".reloc",
+      "rva": 236924928,
+      "raw": 231767040,
+      "raw_size": 9183232,
+      "size": 9183232,
+      "flags": 1073741888
+    },
+    {
+      "name": ".debug$P",
+      "rva": 246108160,
+      "raw": 240950272,
+      "raw_size": 512,
+      "size": 4096,
+      "flags": 3221225536
+    },
+    {
+      "name": "CPADinfo",
+      "rva": 246112256,
+      "raw": 240950784,
+      "raw_size": 512,
+      "size": 4096,
+      "flags": 3221225536
+    },
+    {
+      "name": ".rodata",
+      "rva": 246116352,
+      "raw": 240951296,
+      "raw_size": 4096,
+      "size": 4096,
+      "flags": 1073741888
+    },
+    {
+      "name": ".link",
+      "rva": 246120448,
+      "raw": 240955392,
+      "raw_size": 385024,
+      "size": 385024,
+      "flags": 1073741888
+    },
+    {
+      "name": ".arch",
+      "rva": 246505472,
+      "raw": 241340416,
+      "raw_size": 221184,
+      "size": 221184,
+      "flags": 1073741888
+    },
+    {
+      "name": ".impdata",
+      "rva": 246726656,
+      "raw": 241561600,
+      "raw_size": 3928064,
+      "size": 3928064,
+      "flags": 1107296320
+    },
+    {
+      "name": ".tls$",
+      "rva": 250654720,
+      "raw": 245489664,
+      "raw_size": 243961344,
+      "size": 243961204,
+      "flags": 3758096416
+    },
+    {
+      "name": ".code",
+      "rva": 494616576,
+      "raw": 489451008,
+      "raw_size": 236032,
+      "size": 235660,
+      "flags": 1073741856
+    },
+    {
+      "name": ".data",
+      "rva": 494854144,
+      "raw": 489687040,
+      "raw_size": 512,
+      "size": 336,
+      "flags": 3221225504
+    },
+    {
+      "name": ".rdata",
+      "rva": 494858240,
+      "raw": 489687552,
+      "raw_size": 37376,
+      "size": 36984,
+      "flags": 1073741888
+    },
+    {
+      "name": ".shared",
+      "rva": 494899200,
+      "raw": 489724928,
+      "raw_size": 9180672,
+      "size": 9180624,
+      "flags": 1073741888
+    }
+  ],
+  "candidates": [
+    {
+      "name": "SetFactionRelationOverride",
+      "encoding": "ascii",
+      "file_offset": "0xbd21d10",
+      "va": "0x14bd22910",
+      "pointer_references": [
+        {
+          "file_offset": "0xbd21f08",
+          "va": "0x14bd22b08",
+          "next_qword": "0x14bd22be0",
+          "previous_qword": "0x145e585c0"
+        },
+        {
+          "file_offset": "0xbd261e0",
+          "va": "0x14bd26de0",
+          "next_qword": "0x145e5cd50",
+          "previous_qword": "0x145e5ccb0"
+        },
+        {
+          "file_offset": "0xdba28d0",
+          "va": "0x14dba34d0",
+          "next_qword": "0x14bd228d0",
+          "previous_qword": "0x0"
+        }
+      ]
+    },
+    {
+      "name": "SetFaction",
+      "encoding": "ascii",
+      "file_offset": "0xbd21b68",
+      "va": "0x14bd22768",
+      "pointer_references": [
+        {
+          "file_offset": "0xbd21ef8",
+          "va": "0x14bd22af8",
+          "next_qword": "0x145e585c0",
+          "previous_qword": "0x145e58560"
+        },
+        {
+          "file_offset": "0xbd261d0",
+          "va": "0x14bd26dd0",
+          "next_qword": "0x145e5ccb0",
+          "previous_qword": "0x145e5c500"
+        },
+        {
+          "file_offset": "0xdba28a0",
+          "va": "0x14dba34a0",
+          "next_qword": "0x14bd22760",
+          "previous_qword": "0x0"
+        }
+      ]
+    },
+    {
+      "name": "FilterTargetsByFactionRelation",
+      "encoding": "ascii",
+      "file_offset": "0xbd21b00",
+      "va": "0x14bd22700",
+      "pointer_references": [
+        {
+          "file_offset": "0xbd22188",
+          "va": "0x14bd22d88",
+          "next_qword": "0x145e58590",
+          "previous_qword": "0x145e58530"
+        },
+        {
+          "file_offset": "0xbd26f00",
+          "va": "0x14bd27b00",
+          "next_qword": "0x145e5bcb0",
+          "previous_qword": "0x0"
+        },
+        {
+          "file_offset": "0xdba2af0",
+          "va": "0x14dba36f0",
+          "next_qword": "0x14bd226a0",
+          "previous_qword": "0x0"
+        }
+      ]
+    },
+    {
+      "name": "TakeDamage",
+      "encoding": "ascii",
+      "file_offset": "0xbcc9530",
+      "va": "0x14bcca130",
+      "pointer_references": [
+        {
+          "file_offset": "0xbcc9bc8",
+          "va": "0x14bcca7c8",
+          "next_qword": "0x145ddff10",
+          "previous_qword": "0x145ddfeb0"
+        },
+        {
+          "file_offset": "0xbccfbf0",
+          "va": "0x14bcd07f0",
+          "next_qword": "0x145df2630",
+          "previous_qword": "0x145df25a0"
+        },
+        {
+          "file_offset": "0xdb9bac0",
+          "va": "0x14db9c6c0",
+          "next_qword": "0x14bcca0b0",
+          "previous_qword": "0x0"
+        }
+      ]
+    },
+    {
+      "name": "TakeDamage",
+      "encoding": "ascii",
+      "file_offset": "0xbdf1304",
+      "va": "0x14bdf1f04",
+      "pointer_references": []
+    },
+    {
+      "name": "TakeDamage",
+      "encoding": "utf-16le",
+      "file_offset": "0xbdf1288",
+      "va": "0x14bdf1e88",
+      "pointer_references": []
+    },
+    {
+      "name": "GetHealthAttribute",
+      "encoding": "ascii",
+      "file_offset": "0xbccb9f8",
+      "va": "0x14bccc5f8",
+      "pointer_references": [
+        {
+          "file_offset": "0xbccd9a8",
+          "va": "0x14bcce5a8",
+          "next_qword": "0x145de1620",
+          "previous_qword": "0x145de0c30"
+        },
+        {
+          "file_offset": "0xbccff90",
+          "va": "0x14bcd0b90",
+          "next_qword": "0x145df0870",
+          "previous_qword": "0x145df0700"
+        },
+        {
+          "file_offset": "0xdb9bc48",
+          "va": "0x14db9c848",
+          "next_qword": "0x14bccc5f0",
+          "previous_qword": "0x0"
+        }
+      ]
+    },
+    {
+      "name": "GetHealthAttribute",
+      "encoding": "utf-16le",
+      "file_offset": "0xbccb970",
+      "va": "0x14bccc570",
+      "pointer_references": []
+    },
+    {
+      "name": "IsValidTargetFactionRelation",
+      "encoding": "ascii",
+      "file_offset": "0xbd13c78",
+      "va": "0x14bd14878",
+      "pointer_references": [
+        {
+          "file_offset": "0xbd14428",
+          "va": "0x14bd15028",
+          "next_qword": "0x145e4bc40",
+          "previous_qword": "0x145e4b940"
+        },
+        {
+          "file_offset": "0xbd1adc0",
+          "va": "0x14bd1b9c0",
+          "next_qword": "0x145e50d50",
+          "previous_qword": "0x145e50040"
+        },
+        {
+          "file_offset": "0xdba1548",
+          "va": "0x14dba2148",
+          "next_qword": "0x14bd14800",
+          "previous_qword": "0x0"
+        }
+      ]
+    },
+    {
+      "name": "GetFactionRelation",
+      "encoding": "ascii",
+      "file_offset": "0xbd21860",
+      "va": "0x14bd22460",
+      "pointer_references": [
+        {
+          "file_offset": "0xbd21ed8",
+          "va": "0x14bd22ad8",
+          "next_qword": "0x145e58500",
+          "previous_qword": "0x145e584a0"
+        },
+        {
+          "file_offset": "0xbd221a8",
+          "va": "0x14bd22da8",
+          "next_qword": "0x145e586d0",
+          "previous_qword": "0x145e585f0"
+        },
+        {
+          "file_offset": "0xbd261b0",
+          "va": "0x14bd26db0",
+          "next_qword": "0x145e5c1a0",
+          "previous_qword": "0x145e5c0e0"
+        },
+        {
+          "file_offset": "0xbd26f20",
+          "va": "0x14bd27b20",
+          "next_qword": "0x145e5c240",
+          "previous_qword": "0x145e5c110"
+        },
+        {
+          "file_offset": "0xdba2840",
+          "va": "0x14dba3440",
+          "next_qword": "0x14bd22450",
+          "previous_qword": "0x0"
+        },
+        {
+          "file_offset": "0xdba2b50",
+          "va": "0x14dba3750",
+          "next_qword": "0x14bd229f0",
+          "previous_qword": "0x0"
+        }
+      ]
+    },
+    {
+      "name": "GetFactionRelation",
+      "encoding": "ascii",
+      "file_offset": "0xbd23668",
+      "va": "0x14bd24268",
+      "pointer_references": []
+    },
+    {
+      "name": "GetFactionRelation",
+      "encoding": "utf-16le",
+      "file_offset": "0xbd234f0",
+      "va": "0x14bd240f0",
+      "pointer_references": []
+    },
+    {
+      "name": "BPI_TakeDamage",
+      "encoding": "ascii",
+      "file_offset": "0xbdf1300",
+      "va": "0x14bdf1f00",
+      "pointer_references": [
+        {
+          "file_offset": "0xbdf1328",
+          "va": "0x14bdf1f28",
+          "next_qword": "0x0",
+          "previous_qword": "0x146052740"
+        },
+        {
+          "file_offset": "0xbdf3ac0",
+          "va": "0x14bdf46c0",
+          "next_qword": "0x146053fd0",
+          "previous_qword": "0x490050"
+        },
+        {
+          "file_offset": "0xdbaeec0",
+          "va": "0x14dbafac0",
+          "next_qword": "0x14bdf1ee0",
+          "previous_qword": "0x0"
+        }
+      ]
+    },
+    {
+      "name": "BPI_TakeDamage",
+      "encoding": "utf-16le",
+      "file_offset": "0xbdf1280",
+      "va": "0x14bdf1e80",
+      "pointer_references": []
+    }
+  ]
+}

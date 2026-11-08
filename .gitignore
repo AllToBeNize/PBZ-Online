@@ -1,0 +1,17 @@
+# Local analysis and third-party installations
+.local/
+.local-*
+node_modules/
+__pycache__/
+*.pyc
+*.exe
+*.dll
+*.pak
+*.utoc
+*.ucas
+*.sav
+*.zip
+*.pdb
+*.gpr
+*.rep/
+raw-evidence/
